@@ -44,13 +44,14 @@ F:\baiduyun\前公司文档\RSICSH\TF300Visualization1\TF300Visualization\obj\De
 F:\baiduyun\前公司文档\RSICSH\TF300Visualization1\TF300Visualization\obj\Debug\TF300Visualization.XNAMesh3D.resources
 F:\baiduyun\前公司文档\RSICSH\TF300Visualization1\TF300Visualization\obj\Debug\TF300Visualization.csproj.GenerateResource.Cache
 D:\GIT\TF300Visualization\TF300Visualization\bin\Debug\TF300Visualization.exe.config
-D:\GIT\TF300Visualization\TF300Visualization\obj\Debug\TF300Visualization.exe
-D:\GIT\TF300Visualization\TF300Visualization\obj\Debug\TF300Visualization.pdb
 D:\GIT\TF300Visualization\TF300Visualization\bin\Debug\TF300Visualization.exe
 D:\GIT\TF300Visualization\TF300Visualization\bin\Debug\TF300Visualization.pdb
 D:\GIT\TF300Visualization\TF300Visualization\bin\Debug\Microsoft.Xna.Framework.dll
-D:\GIT\TF300Visualization\TF300Visualization\obj\Debug\TF300Visualization.csprojResolveAssemblyReference.cache
 D:\GIT\TF300Visualization\TF300Visualization\obj\Debug\TF300Visualization.FormMain.resources
 D:\GIT\TF300Visualization\TF300Visualization\obj\Debug\TF300Visualization.Properties.Resources.resources
 D:\GIT\TF300Visualization\TF300Visualization\obj\Debug\TF300Visualization.XNAMesh3D.resources
 D:\GIT\TF300Visualization\TF300Visualization\obj\Debug\TF300Visualization.csproj.GenerateResource.Cache
+D:\GIT\TF300Visualization\TF300Visualization\obj\Debug\TF300Visualization.exe
+D:\GIT\TF300Visualization\TF300Visualization\obj\Debug\TF300Visualization.pdb
+D:\GIT\TF300Visualization\TF300Visualization\bin\Debug\Resource\Arial.xnb
+D:\GIT\TF300Visualization\TF300Visualization\obj\Debug\TF300Visualization.csprojResolveAssemblyReference.cache

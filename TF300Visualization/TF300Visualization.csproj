@@ -135,7 +135,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Resource\Arial.xnb" />
+    <None Include="Resource\Arial.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="XNALibrary\CustomVertexs\vssver2.scc" />
     <None Include="XNALibrary\Helpers\vssver2.scc" />
     <None Include="XNALibrary\Interpolaters\vssver2.scc" />
@@ -153,6 +155,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Microsoft.Xna.Framework.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Readme.txt" />
     <Content Include="Resource\FlyCapture2Managed.dll" />
     <Content Include="Resource\Interop.AsystLog0Lib.dll" />

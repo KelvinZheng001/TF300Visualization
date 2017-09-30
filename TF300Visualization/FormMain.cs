@@ -100,12 +100,12 @@ namespace TF300Visualization
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            this.mXna3D.GrpahicType = GraphicTypeEnum.ContourZone3D;
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            this.mXna3D.GrpahicType = GraphicTypeEnum.Color3D;
         }
 
         private void button5_Click(object sender, EventArgs e)
