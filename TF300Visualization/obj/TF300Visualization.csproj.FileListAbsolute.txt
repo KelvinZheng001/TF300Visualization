@@ -1,0 +1,10 @@
+F:\baiduyun\前公司文档\RSICSH\TF300Visualization\TF300Visualization\bin\Debug\TF300Visualization.exe.config
+F:\baiduyun\前公司文档\RSICSH\TF300Visualization\TF300Visualization\obj\Debug\TF300Visualization.exe
+F:\baiduyun\前公司文档\RSICSH\TF300Visualization\TF300Visualization\obj\Debug\TF300Visualization.pdb
+F:\baiduyun\前公司文档\RSICSH\TF300Visualization\TF300Visualization\bin\Debug\TF300Visualization.exe
+F:\baiduyun\前公司文档\RSICSH\TF300Visualization\TF300Visualization\bin\Debug\TF300Visualization.pdb
+F:\baiduyun\前公司文档\RSICSH\TF300Visualization\TF300Visualization\obj\Debug\ResolveAssemblyReference.cache
+F:\baiduyun\前公司文档\RSICSH\TF300Visualization\TF300Visualization\obj\Debug\TF300Visualization.FormMain.resources
+F:\baiduyun\前公司文档\RSICSH\TF300Visualization\TF300Visualization\obj\Debug\TF300Visualization.Properties.Resources.resources
+F:\baiduyun\前公司文档\RSICSH\TF300Visualization\TF300Visualization\obj\Debug\TF300Visualization.XNAMesh3D.resources
+F:\baiduyun\前公司文档\RSICSH\TF300Visualization\TF300Visualization\obj\Debug\TF300Visualization.csproj.GenerateResource.Cache

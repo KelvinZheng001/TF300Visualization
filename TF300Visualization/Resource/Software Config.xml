@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SystemConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CreateTime>0001-01-01T00:00:00</CreateTime>
+  <Database>
+    <mTime>30</mTime>
+    <ServiceIP>localhost</ServiceIP>
+    <DatabaseName>TF300System</DatabaseName>
+    <UserName>sa</UserName>
+    <OverTime>30</OverTime>
+    <IntegratedSecurity>false</IntegratedSecurity>
+  </Database>
+  <DataDirectory />
+  <PixelConvert>
+    <PixelToMmX>0</PixelToMmX>
+    <PixelToMmY>0</PixelToMmY>
+  </PixelConvert>
+</SystemConfig>

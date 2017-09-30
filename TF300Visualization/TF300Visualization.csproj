@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{528E19A8-4846-4115-92CA-C98D1BB5A876}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TF300Visualization</RootNamespace>
+    <AssemblyName>TF300Visualization</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework">
+      <HintPath>.\Microsoft.Xna.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XNALibrary\ColorPalette.cs" />
+    <Compile Include="XNALibrary\CustomVertexs\VectexPositionNormal.cs" />
+    <Compile Include="XNALibrary\CustomVertexs\VertexPositionNormalColor.cs" />
+    <Compile Include="XNALibrary\Drawer.cs" />
+    <Compile Include="XNALibrary\DrawerAxis.cs" />
+    <Compile Include="XNALibrary\DrawerColorMap.cs" />
+    <Compile Include="XNALibrary\DrawerContour.cs" />
+    <Compile Include="XNALibrary\GeometricPrimitive.cs" />
+    <Compile Include="XNALibrary\GeometricPrimitiveVertexPositionNormalColor.cs" />
+    <Compile Include="XNALibrary\GraphicsDeviceControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="XNALibrary\GraphicsDeviceControl.Designer.cs">
+      <DependentUpon>GraphicsDeviceControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XNALibrary\GraphicsDeviceService.cs" />
+    <Compile Include="XNALibrary\Helpers\MathHelper.cs" />
+    <Compile Include="XNALibrary\Helpers\PrimitiveHelper.cs" />
+    <Compile Include="XNALibrary\Helpers\TextureHelper.cs" />
+    <Compile Include="XNALibrary\Interpolaters\GridValue.cs" />
+    <Compile Include="XNALibrary\Interpolaters\Interpolater.cs" />
+    <Compile Include="XNALibrary\Interpolaters\InverseDistInterpolater.cs" />
+    <Compile Include="XNALibrary\Interpolaters\Kriging.cs" />
+    <Compile Include="XNALibrary\Interpolaters\KrigingOptimized.cs" />
+    <Compile Include="XNALibrary\Interpolaters\PointValue.cs" />
+    <Compile Include="XNALibrary\LineSegment.cs" />
+    <Compile Include="XNALibrary\Maths\Complex.cs" />
+    <Compile Include="XNALibrary\Maths\Matrix.cs" />
+    <Compile Include="XNALibrary\MeshGenerator.cs" />
+    <Compile Include="XNALibrary\ServiceContainer.cs" />
+    <Compile Include="XNALibrary\Trangle.cs" />
+    <Compile Include="XNALibrary\XNAMesh3D.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="XNALibrary\XNAMesh3D.resx">
+      <DependentUpon>XNAMesh3D.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resource\Arial.xnb" />
+    <None Include="XNALibrary\CustomVertexs\vssver2.scc" />
+    <None Include="XNALibrary\Helpers\vssver2.scc" />
+    <None Include="XNALibrary\Interpolaters\vssver2.scc" />
+    <None Include="XNALibrary\Maths\vssver2.scc" />
+    <None Include="XNALibrary\vssver2.scc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Readme.txt" />
+    <Content Include="Resource\FlyCapture2Managed.dll" />
+    <Content Include="Resource\Interop.AsystLog0Lib.dll" />
+    <Content Include="Resource\Interop.AsystLogLib.dll" />
+    <Content Include="Resource\Interop.AsystParamMapLib.dll" />
+    <Content Include="Resource\Interop.ASYSTPLUSSYNCHRONIZERLib.dll" />
+    <Content Include="Resource\Interop.AsystStateMachineLib.dll" />
+    <Content Include="Resource\Interop.OmniDriver.dll" />
+    <Content Include="Resource\Interop.SCSERVEREXELib.dll" />
+    <Content Include="Resource\lsapiw32.dll" />
+    <Content Include="Resource\mfc42.dll" />
+    <Content Include="Resource\mfc71d.dll" />
+    <Content Include="Resource\Microsoft.DirectX.Direct3D.DLL" />
+    <Content Include="Resource\Microsoft.DirectX.DLL" />
+    <Content Include="Resource\Microsoft.Xna.Framework.dll" />
+    <Content Include="Resource\mil.dll" />
+    <Content Include="Resource\milblob.dll" />
+    <Content Include="Resource\milcal.dll" />
+    <Content Include="Resource\milcode.dll" />
+    <Content Include="Resource\milmeas.dll" />
+    <Content Include="Resource\milocr.dll" />
+    <Content Include="Resource\milpat.dll" />
+    <Content Include="Resource\milprot.dll" />
+    <Content Include="Resource\milvb.dll" />
+    <Content Include="Resource\milvga.dll" />
+    <Content Include="Resource\milvhook.dll" />
+    <Content Include="Resource\msvcp71d.dll" />
+    <Content Include="Resource\msvcr71d.dll" />
+    <Content Include="Resource\Software Config.xml" />
+    <Content Include="Resource\TFX1000ALGO.dll" />
+    <Content Include="Resource\Utility.dll" />
+    <Content Include="Resource\x3daudio1_2.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

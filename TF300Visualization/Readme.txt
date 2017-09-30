@@ -1,0 +1,1 @@
+﻿Copy file s in Resource folder to output folder
